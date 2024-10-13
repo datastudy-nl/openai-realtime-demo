@@ -48,9 +48,9 @@ python main.py
 ## Configuration
 You can customize the assistant's behavior by modifying the SESSION_DATA dictionary in main.py:
 
-Instructions: Set the assistant's personality and guidelines.
-Voice: Choose the assistant's voice (e.g., "voice": "Sol").
-Temperature: Adjust the creativity level (0.0 to 1.0).
+ - Instructions: Set the assistant's personality and guidelines.
+ - Voice: Choose the assistant's voice (e.g., "voice": "Sol").
+ - Temperature: Adjust the creativity level (0.0 to 1.0).
 Example:
 
 ```python
@@ -90,9 +90,9 @@ sudo apt-get install portaudio19-dev python3-pyaudio
 ```
 
 ## Troubleshooting
-Microphone or Speaker Issues: Ensure your microphone and speakers are properly connected and configured.
-API Errors: Verify that your OpenAI API key is correct and has access to the GPT-4 real-time API.
-WebSocket Errors: Check your internet connection and firewall settings.
+ - Microphone or Speaker Issues: Ensure your microphone and speakers are properly connected and configured.
+ - API Errors: Verify that your OpenAI API key is correct and has access to the GPT-4 real-time API.
+ - WebSocket Errors: Check your internet connection and firewall settings.
 
 ## Contributing
 Contributions are welcome! Please follow these steps:
@@ -120,4 +120,4 @@ This project is licensed under the Apache License 2.0. See the LICENSE file for 
 
 Attribution Requirement: If you use any part of this code, please provide appropriate credit by mentioning the original author.
 
-Disclaimer: This is a demo application intended for educational purposes. Use it responsibly and ensure compliance with OpenAI's usage policies.
+_Disclaimer: This is a demo application intended for educational purposes. Use it responsibly and ensure compliance with OpenAI's usage policies._
