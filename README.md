@@ -37,7 +37,7 @@ OPENAI_API_KEY=your-openai-api-key
 1. Run the Demo
 
 ```bash
-python main.py
+python demo.py
 ```
 2.  Interaction
 
@@ -46,7 +46,7 @@ python main.py
  - Press Ctrl+C to terminate the demo.
 
 ## Configuration
-You can customize the assistant's behavior by modifying the SESSION_DATA dictionary in main.py:
+You can customize the assistant's behavior by modifying the SESSION_DATA dictionary in demo.py:
 
  - Instructions: Set the assistant's personality and guidelines.
  - Voice: Choose the assistant's voice (e.g., "voice": "Sol").
@@ -66,7 +66,7 @@ SESSION_DATA = {
 }
 ```
 ## Project Structure
- - main.py: The main script that runs the demo.
+ - demo.py: The main script that runs the demo.
  - requirements.txt: Python dependencies.
  - .env: Environment variables (not included; you need to create this file).
 
